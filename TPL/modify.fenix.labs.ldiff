@@ -1,0 +1,14 @@
+dn: cn=sudo,ou=groups,ou=labs,ou=labs,dc=cloud,dc=local
+changetype: modify
+add: memberUid
+memberUid: {login}
+
+dn: cn=adm,ou=groups,ou=labs,ou=labs,dc=cloud,dc=local
+changetype: modify
+add: memberUid
+memberUid: {login}
+
+dn: cn=mail,ou=groups,ou=labs,ou=labs,dc=cloud,dc=local
+changetype: modify
+add: memberUid
+memberUid: {login}

@@ -1,0 +1,9 @@
+dn: cn=labs,ou=groups,ou=labs,dc=cloud,dc=local
+changetype: modify
+add: member
+member: uid={login},ou=people,ou=labs,dc=cloud,dc=local
+
+dn: cn=clouds,ou=groups,ou=labs,dc=cloud,dc=local
+changetype: modify
+add: member
+member: uid={login},ou=people,ou=labs,dc=cloud,dc=local

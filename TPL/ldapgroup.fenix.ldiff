@@ -1,0 +1,5 @@
+dn: cn={login},ou=groups,ou=labs,dc=cloud,dc=local
+objectClass: posixGroup
+cn: {login}
+gidNumber: {idNumber}
+memberUid: {login}
